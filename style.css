@@ -8,11 +8,10 @@
 }
 body{
     
-  background-image: url(./img/sky.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
+    background: url("./img/sky.jpg") no-repeat fixed;
+    background-size: cover;
+    
+  
      
 }
 .container{
@@ -26,8 +25,10 @@ body{
 }
 
 Input {
-
+    
     border-radius: 5px;
+    border-bottom: 2px solid red ;
+    opacity: 0.7;
 }
 
 #city {
